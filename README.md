@@ -27,8 +27,8 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/Saviourjr/GRID-)
-- Live Site URL: [ live site URL here](https://saviourjr/github.io/GRID-/)
+- Solution URL: [solution URL here](https://github.com/Saviourjr/GRID)
+- Live Site URL: [ live site URL here](https://saviourjr/github.io/GRID/)
 
 ## My process
 
