@@ -1,0 +1,81 @@
+
+body {
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+    padding: 4.5rem 1.5rem 2rem;
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    color: #fff;
+    background-color: hsl(0, 0%, 81%) ;
+}
+main{display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.grid-container{display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-row: repeat(3 1fr);
+grid-gap:15px;
+max-width: 1110px;
+}
+.card-1{background-color:hsl(263, 55%, 52%) ;
+grid-column: span 2;
+grid-row: span 1;
+border-radius: 4px;
+overflow: hidden;}
+.card__header {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .card__header img {
+    height: 1.95rem;
+    width: auto;
+    border-radius: 10rem;
+    border: 0.14rem solid hsla(0, 0%, 100%, 0.5);
+  }
+  .card__header h1 {
+    margin-bottom: -0.2rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .card__header p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    opacity: 0.5;
+  }
+ .small-p{font-size:15px ;
+font-weight: lighter;
+opacity: 70%;
+
+}
+.info{align-items: center;
+padding-left: 10px;}
+.card-2{background-color:hsl(217, 19%, 35%) ;
+grid-column: span 1;
+grid-row: span 1;
+border-radius: 4px;
+overflow: hidden;}
+.card-3{background-color: white;
+grid-column: span 1;
+grid-row: span 1;
+color:hsl(217, 19%, 35%);
+border-radius: 4px;
+overflow: hidden;}
+.card-4{background-color: hsl(219, 29%, 14%) ;
+grid-column: span 2;
+grid-row: span 1;
+border-radius: 4px;
+overflow: hidden;}
+.card-5{background-color: white;
+grid-row: span 2;
+grid-column: span 1;
+color:hsl(217, 19%, 35%);
+border-radius: 4px;
+overflow: hidden;
+width: 260px;}
+
